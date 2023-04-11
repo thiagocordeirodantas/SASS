@@ -1,7 +1,11 @@
+$cor-principal: #E74646;
+$cor-secundaria: #B5D5C5;
+
 body {
     margin: 0;
     padding: 0;
 }
+
 
 .container {
     height: 100vh;
@@ -9,22 +13,22 @@ body {
 
     .esquerdo {
         width: 50%;
-        background-color: purple;
+        background-color: $cor-principal;
 
         .texto {
             margin-top: 40%;
             text-align: center;
             font-size: 200px;
-            color: aqua;
+            color: $cor-secundaria;
         }
     }
 
     .direito {
         width: 50%;
-        background-color: aqua;
+        background-color: $cor-secundaria;
 
         .texto {
-            color: purple;
+            color: $cor-principal;
             margin-top: 40%;
             text-align: center;
             font-size: 200px;
